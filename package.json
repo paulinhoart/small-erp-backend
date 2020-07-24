@@ -1,0 +1,26 @@
+{
+  "name": "small-erp-backend",
+  "version": "1.0.0",
+  "description": "O Small ERP é um software básico com módulos para apoiar a gestao de seu negocio no dia a dia. O objeitvo deste pequeno ERP é ser pratico, rapido e disponbilizar informações e relatórios simples e direto.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulinhoart/small-erp-backend.git"
+  },
+  "author": "Paulo Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulinhoart/small-erp-backend/issues"
+  },
+  "homepage": "https://github.com/paulinhoart/small-erp-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  }
+}
