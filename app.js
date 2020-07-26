@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const rotaProduto = require('./routes/produto');
 const rotaPedido = require('./routes/pedido');
 const rotaUser = require('./src/authController');
+const rotaProject = require('./src/projectController');
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
 app.use('/api/produto/', rotaProduto);
 app.use('/api/pedido/', rotaPedido);
 app.use('/api/register/', rotaUser);
+app.use('/api/projects/', rotaProject);
 
 
 module.exports = app;

@@ -1,6 +1,10 @@
 const express = require('express');
-const { route } = require('../app');
+//const { route } = require('../app');
 const router  = express.Router();
+
+const authMiddleware = require('../middlewares/auth');
+
+router.use(authMiddleware);
 
 // RETORNA TODOS PEDIDOS
 router.get('/', (req, res, next) => {

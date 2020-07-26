@@ -28,7 +28,6 @@ router.post('/', async (req, res)=> {
                 mensagem: "Cadastro realizado com sucesso ",
                 token: generateToken( { id: user.id }),
              });
-
         }
         
     } catch (error) {
