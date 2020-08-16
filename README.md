@@ -1,3 +1,5 @@
+![Build CI](https://github.com/paulinhoart/small-erp-backend/workflows/Build%20CI/badge.svg)
+
 # Small ERP
 O Small ERP é um software básico com módulos para apoiar a gestao de seu negocio no dia a dia.
 O objeitvo deste pequeno ERP é ser pratico, rapido e disponbilizar informações e relatórios simples e direto.
