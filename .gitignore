@@ -1,3 +1,6 @@
+#Dados MongoDb
+data/
+
 # Logs
 logs
 *.log
