@@ -2,9 +2,9 @@ const express = require('express');
 const Produto = require('../db/model/produto');
 const router  = express.Router();
 
-const authMiddleware = require('../middlewares/auth');
+//const authMiddleware = require('../middlewares/auth');
 
-router.use(authMiddleware);
+//router.use(authMiddleware);
 
 //const Produtos = new Produto();
 

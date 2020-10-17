@@ -4,6 +4,7 @@ const app = express();
 const morgan = require('morgan');
 const rotaProduto = require('./routes/produto');
 const rotaPedido = require('./routes/pedido');
+const rotaCliente = require('./routes/cliente');
 const rotaUser = require('./src/authController');
 const rotaProject = require('./src/projectController');
 
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
 
 app.use('/api/produto/', rotaProduto);
 app.use('/api/pedido/', rotaPedido);
+app.use('/api/cliente/', rotaCliente);
 app.use('/api/register/', rotaUser);
 app.use('/api/projects/', rotaProject);
 
