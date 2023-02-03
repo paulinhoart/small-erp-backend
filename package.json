@@ -1,7 +1,7 @@
 {
   "name": "small-erp-backend",
   "version": "1.0.0",
-  "description": "O Small ERP é um software básico com módulos para apoiar a gestao de seu negocio no dia a dia. O objeitvo deste pequeno ERP é ser pratico, rapido e disponbilizar informações e relatórios simples e direto.",
+  "description": "Small ERP",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
