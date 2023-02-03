@@ -20,9 +20,9 @@
   "homepage": "https://github.com/paulinhoart/small-erp-backend#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "config": "^3.2.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.25",
     "mongoose-sequence": "^5.2.2",
