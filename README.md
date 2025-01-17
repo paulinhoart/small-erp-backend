@@ -26,3 +26,5 @@ O objetivo deste pequeno ERP é ser prático, rápido, disponbilizar informaçõ
 * DashBoard com:
     * Orçamento aprovado e não aprovado (por localização, produto)
     * Pedido de Vendas (por localização, produto)
+
+### EM CONSTRUÇÃO
