@@ -4,6 +4,8 @@ metadata:
   name: api-backend-smallerp
   description: |
     Este é o backend do SmallERP.
+  annotations:
+    github.com/project-slug: paulinhoart/small-erp-backend
 spec:
   type: service
   owner: paulinhoart
