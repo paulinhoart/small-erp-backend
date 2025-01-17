@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-backend-smallerp
+  description: |
+    Este é o backend do SmallERP.
+spec:
+  type: API
+  owner: paulinhoart
+  lifecycle: staging
