@@ -6,6 +6,7 @@ metadata:
     Este é o backend do SmallERP.
   annotations:
     github.com/project-slug: paulinhoart/small-erp-backend
+    sonarqube.org/project-key: totvstfs/techfin-poc-copilot-viewer
 spec:
   type: service
   owner: paulinhoart
