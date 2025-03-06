@@ -22,7 +22,7 @@
     "bcrypt": "^5.0.0",
     "body-parser": "^1.20.1",
     "config": "^3.2.3",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.20",
     "mongoose-sequence": "^5.2.2",
