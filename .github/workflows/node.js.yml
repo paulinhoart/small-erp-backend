@@ -26,6 +26,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build --if-present
-    - name: Expose Secret
-      run: echo "SECRET_KEY=12345" >> $GITHUB_ENV
     #- run: npm test
